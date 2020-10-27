@@ -19,7 +19,7 @@ const Contacts = () => (
           search an online super car dealership. Prior to superCars, Elihle was
           CEO of Grand Central Communications, an internet service for
           business-to-business integration. Before joining Grand Central, Elihle
-          was a senior vice president at Excite@Home where he oversaw the Excite
+          was a senior vice president at WECare@Home where he oversaw the Excite
           Search and Community business units and managed Network Programming.
           Elihle holds an MBA from Stanford Graduate School of Business and a BS
           in Electrical Engineering from Virginia Tech.
