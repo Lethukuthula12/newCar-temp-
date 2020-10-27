@@ -23,7 +23,7 @@ const Header = (
       <Link className="option" to="/shop">
         SHOP
       </Link>
-      <Link className="option" to="/contacts">
+      <Link className="option" to="/contact">
         CONTACT
       </Link>
       {currentUser ? ( // checking if the user is signed in or signed out, and displaying a div or a link depending on the state of the user
