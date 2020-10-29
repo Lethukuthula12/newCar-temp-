@@ -1,10 +1,19 @@
 .sign-in-and-sign-up {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
-
+ flex-direction: row;
   background: url("https://www.wsupercars.com/wallpapers/Bugatti/2014-Bugatti-Veyron-Black-Bess-002-1080.jpg")no-repeat center center/cover;
 
+
+}
+
+@media screen and (max-width: 576px) {
+.sign-in-and-sign-up{
+  flex-direction: column;
+  
+}
 }
 
 .sign-in-and-sign-up::before {

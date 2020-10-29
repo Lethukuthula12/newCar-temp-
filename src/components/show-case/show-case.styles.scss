@@ -28,3 +28,12 @@
 .showcase * {
   z-index: 9;
 }
+
+@media (max-width: 789px) {
+.content{
+
+  h1{
+    font-size: 50spx;
+  }
+}
+}

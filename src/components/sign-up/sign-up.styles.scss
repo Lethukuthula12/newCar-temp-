@@ -4,10 +4,21 @@
   width: 380px;
   margin-bottom: 40px;
   color: #fff;
-  margin-top: 9rem;
+ margin-top: 10rem;
   z-index: 5;
 
   .title {
     margin: 10px 0;
   }
+}
+@media (max-width: 785px) {
+  .sign-up {
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    margin-top: 3rem;
+  }
+
+  
 }

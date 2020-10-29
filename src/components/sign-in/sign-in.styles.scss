@@ -4,7 +4,9 @@
   flex-direction: column;
   flex-wrap: nowrap;
   color: #fff;
-  margin-top: 10rem;
+  margin-top: 15rem;
+  padding-left: 1rem;
+  
 
 
   .title {
@@ -13,11 +15,27 @@
 
   .buttons {
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
   }
 
   * {
-    z-index: 10;
+    z-index: 5;
     color: #fff;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .sign-in {
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    margin-top: 40rem;
+  }
+  &.buttons{
+    flex-direction: column;
+    margin-bottom: 3rem;
+    
   }
 }
