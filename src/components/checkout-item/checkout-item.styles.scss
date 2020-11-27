@@ -1,7 +1,6 @@
 .checkout-item {
-  width: 100%;
+  width: 65%;
   display: flex;
-  min-height: 100px;
   border-bottom: 1px solid darkgrey;
   padding: 15px 0;
   font-size: 20px;
@@ -23,13 +22,15 @@
 
   .name,
   .quantity,
-  .price {
+  .price,
+  .remove-button
+   {
     width: 23%;
     margin-left: 1rem;
   }
 
   .quantity {
-    padding-left: 20px;
+    padding-left: 10px;
     display: flex;
   }
 
@@ -45,4 +46,13 @@
     padding-right: 30px;
     cursor: pointer;
   }
+}
+
+@media screen and (max-width: 445px){
+ .checkout-item{
+   width: 100%;
+ }
+ .image-container{
+   width: 100%;
+ }
 }
